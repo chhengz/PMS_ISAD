@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMS_ISAD", "PMS_ISAD.csproj", "{BDFE1ED3-514D-4B90-AA73-35D94150376E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDFE1ED3-514D-4B90-AA73-35D94150376E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFE1ED3-514D-4B90-AA73-35D94150376E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFE1ED3-514D-4B90-AA73-35D94150376E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFE1ED3-514D-4B90-AA73-35D94150376E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C66845B-2C08-45C7-9293-AF2BE94B1089}
+	EndGlobalSection
+EndGlobal
