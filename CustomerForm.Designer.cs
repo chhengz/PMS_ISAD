@@ -156,6 +156,7 @@
             this.btnExit.TabIndex = 36;
             this.btnExit.Text = "ចាកចេញ";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // CustomerForm
             // 

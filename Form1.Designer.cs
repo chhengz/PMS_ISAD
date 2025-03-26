@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -41,7 +42,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Khmer OS Battambang", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(111, 177);
+            this.button1.Location = new System.Drawing.Point(129, 177);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(209, 81);
             this.button1.TabIndex = 0;
@@ -52,7 +53,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Khmer OS Battambang", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(326, 177);
+            this.button2.Location = new System.Drawing.Point(344, 177);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(209, 81);
             this.button2.TabIndex = 1;
@@ -63,7 +64,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Khmer OS Battambang", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(541, 177);
+            this.button3.Location = new System.Drawing.Point(559, 177);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(209, 81);
             this.button3.TabIndex = 2;
@@ -74,7 +75,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Khmer OS Battambang", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(541, 264);
+            this.button4.Location = new System.Drawing.Point(559, 264);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(209, 81);
             this.button4.TabIndex = 5;
@@ -85,7 +86,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Khmer OS Battambang", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(326, 264);
+            this.button5.Location = new System.Drawing.Point(344, 264);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(209, 81);
             this.button5.TabIndex = 4;
@@ -96,7 +97,7 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Khmer OS Battambang", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(111, 264);
+            this.button6.Location = new System.Drawing.Point(129, 264);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(209, 81);
             this.button6.TabIndex = 3;
@@ -108,7 +109,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Khmer OS Battambang", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(314, 33);
+            this.label1.Location = new System.Drawing.Point(333, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(231, 67);
             this.label1.TabIndex = 6;
@@ -118,7 +119,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Khmer OS Battambang", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(317, 100);
+            this.label2.Location = new System.Drawing.Point(335, 100);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(226, 49);
             this.label2.TabIndex = 7;
@@ -128,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(860, 443);
+            this.ClientSize = new System.Drawing.Size(897, 443);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
@@ -138,6 +139,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Khmer OS Battambang", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
