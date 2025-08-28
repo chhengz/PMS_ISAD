@@ -50,6 +50,10 @@
   <PropertyGroup>
     <ApplicationIcon>icons8_staff.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="AlphaBlendTextBox">
       <HintPath>..\Framwork\AlphaBlendTextBox.dll</HintPath>
@@ -61,15 +65,41 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
       <HintPath>..\Framwork\Bunifu\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\Framwork\Bunifu\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\Framwork\Bunifu\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\Framwork\Bunifu\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel">
       <HintPath>..\Framwork\Bunifu\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\Framwork\Bunifu\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
       <HintPath>..\Framwork\Bunifu\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>..\Framwork\Bunifu\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\Framwork\Bunifu\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>..\Framwork\Bunifu\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\Framwork\Bunifu\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -81,91 +111,79 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomerForm.cs">
+    <Compile Include="A6PMS.cs" />
+    <Compile Include="A6Y32025DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>A6Y32025DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomerForm.Designer.cs">
-      <DependentUpon>CustomerForm.cs</DependentUpon>
+    <Compile Include="frmCustomers.Designer.cs">
+      <DependentUpon>frmCustomers.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
     </Compile>
-    <Compile Include="ImportDetailForm.cs">
+    <Compile Include="frmImportDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ImportDetailForm.Designer.cs">
-      <DependentUpon>ImportDetailForm.cs</DependentUpon>
+    <Compile Include="frmImportDetail.Designer.cs">
+      <DependentUpon>frmImportDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginForm.cs">
+    <Compile Include="frmOrderDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
-      <DependentUpon>LoginForm.cs</DependentUpon>
+    <Compile Include="frmOrderDetail.Designer.cs">
+      <DependentUpon>frmOrderDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginModernForm.cs">
+    <Compile Include="frmPayments.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginModernForm.Designer.cs">
-      <DependentUpon>LoginModernForm.cs</DependentUpon>
+    <Compile Include="frmPayments.Designer.cs">
+      <DependentUpon>frmPayments.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrderDetailForm.cs">
+    <Compile Include="frmProducts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OrderDetailForm.Designer.cs">
-      <DependentUpon>OrderDetailForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PaymentForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PaymentForm.Designer.cs">
-      <DependentUpon>PaymentForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProductForm.Designer.cs">
-      <DependentUpon>ProductForm.cs</DependentUpon>
+    <Compile Include="frmProducts.Designer.cs">
+      <DependentUpon>frmProducts.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StaffForm.cs">
+    <Compile Include="frmStaffs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StaffForm.Designer.cs">
-      <DependentUpon>StaffForm.cs</DependentUpon>
+    <Compile Include="frmStaffs.Designer.cs">
+      <DependentUpon>frmStaffs.cs</DependentUpon>
     </Compile>
-    <Compile Include="SupplierForm.cs">
+    <Compile Include="frmSuppliers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SupplierForm.Designer.cs">
-      <DependentUpon>SupplierForm.cs</DependentUpon>
+    <Compile Include="frmSuppliers.Designer.cs">
+      <DependentUpon>frmSuppliers.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="CustomerForm.resx">
-      <DependentUpon>CustomerForm.cs</DependentUpon>
+    <EmbeddedResource Include="frmCustomers.resx">
+      <DependentUpon>frmCustomers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ImportDetailForm.resx">
-      <DependentUpon>ImportDetailForm.cs</DependentUpon>
+    <EmbeddedResource Include="frmImportDetail.resx">
+      <DependentUpon>frmImportDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
-      <DependentUpon>LoginForm.cs</DependentUpon>
+    <EmbeddedResource Include="frmOrderDetail.resx">
+      <DependentUpon>frmOrderDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginModernForm.resx">
-      <DependentUpon>LoginModernForm.cs</DependentUpon>
+    <EmbeddedResource Include="frmPayments.resx">
+      <DependentUpon>frmPayments.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OrderDetailForm.resx">
-      <DependentUpon>OrderDetailForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PaymentForm.resx">
-      <DependentUpon>PaymentForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProductForm.resx">
-      <DependentUpon>ProductForm.cs</DependentUpon>
+    <EmbeddedResource Include="frmProducts.resx">
+      <DependentUpon>frmProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -178,12 +196,23 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="StaffForm.resx">
-      <DependentUpon>StaffForm.cs</DependentUpon>
+    <EmbeddedResource Include="frmStaffs.resx">
+      <DependentUpon>frmStaffs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SupplierForm.resx">
-      <DependentUpon>SupplierForm.cs</DependentUpon>
+    <EmbeddedResource Include="frmSuppliers.resx">
+      <DependentUpon>frmSuppliers.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="A6Y32025DataSet.xsc">
+      <DependentUpon>A6Y32025DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="A6Y32025DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>A6Y32025DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="A6Y32025DataSet.xss">
+      <DependentUpon>A6Y32025DataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -199,6 +228,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icons8_staff.ico" />
+    <None Include="resources\images\broom_32px.png" />
+    <None Include="resources\images\icons8_checkout_32.png" />
+    <None Include="resources\images\delete_bin_30px.png" />
+    <None Include="resources\images\save_30px.png" />
+    <None Include="resources\images\preview_pane_30px.png" />
+    <None Include="resources\images\edit_file_30px.png" />
+    <None Include="resources\images\add_30px.png" />
+    <None Include="resources\images\search_30px.png" />
     <None Include="resources\images\close_window_30px.png" />
     <None Include="resources\password_48px.png" />
     <None Include="resources\person_48px.png" />

@@ -63,6 +63,26 @@ namespace PMS_ISAD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_30px {
+            get {
+                object obj = ResourceManager.GetObject("add_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap broom_32px {
+            get {
+                object obj = ResourceManager.GetObject("broom_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close_window_30px {
             get {
                 object obj = ResourceManager.GetObject("close_window_30px", resourceCulture);
@@ -71,22 +91,22 @@ namespace PMS_ISAD.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] Customer {
+        internal static System.Drawing.Bitmap delete_bin_30px {
             get {
-                object obj = ResourceManager.GetObject("Customer", resourceCulture);
-                return ((byte[])(obj));
+                object obj = ResourceManager.GetObject("delete_bin_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] CustomerHover {
+        internal static System.Drawing.Bitmap edit_file_30px {
             get {
-                object obj = ResourceManager.GetObject("CustomerHover", resourceCulture);
-                return ((byte[])(obj));
+                object obj = ResourceManager.GetObject("edit_file_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -103,60 +123,20 @@ namespace PMS_ISAD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_checkout_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_checkout_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_staff_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8_staff_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap login {
-            get {
-                object obj = ResourceManager.GetObject("login", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap login1 {
-            get {
-                object obj = ResourceManager.GetObject("login1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap password_48px {
-            get {
-                object obj = ResourceManager.GetObject("password_48px", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] Payment {
-            get {
-                object obj = ResourceManager.GetObject("Payment", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] PaymentHover {
-            get {
-                object obj = ResourceManager.GetObject("PaymentHover", resourceCulture);
-                return ((byte[])(obj));
             }
         }
         
@@ -171,62 +151,32 @@ namespace PMS_ISAD.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] Product {
+        internal static System.Drawing.Bitmap preview_pane_30px {
             get {
-                object obj = ResourceManager.GetObject("Product", resourceCulture);
-                return ((byte[])(obj));
+                object obj = ResourceManager.GetObject("preview_pane_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] ProductHover {
+        internal static System.Drawing.Bitmap save_30px {
             get {
-                object obj = ResourceManager.GetObject("ProductHover", resourceCulture);
-                return ((byte[])(obj));
+                object obj = ResourceManager.GetObject("save_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] Staff {
+        internal static System.Drawing.Bitmap search_30px {
             get {
-                object obj = ResourceManager.GetObject("Staff", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] StaffHover {
-            get {
-                object obj = ResourceManager.GetObject("StaffHover", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] Supplier {
-            get {
-                object obj = ResourceManager.GetObject("Supplier", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] SupplierHover {
-            get {
-                object obj = ResourceManager.GetObject("SupplierHover", resourceCulture);
-                return ((byte[])(obj));
+                object obj = ResourceManager.GetObject("search_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
